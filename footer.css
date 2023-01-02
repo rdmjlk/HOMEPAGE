@@ -1,0 +1,9 @@
+.footer {
+  width: 150px;
+  height: 260px;
+  position: sticky;
+  right: 45px;
+  bottom: 45px;
+  text-transform: uppercase;
+  z-index: 9;
+}
