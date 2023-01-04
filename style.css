@@ -79,10 +79,17 @@ info {
 }
 
 /* Link as a regualr state */
+a:link {
+  background: black;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+
 a:visited {
-  background-color: transparent;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
+  background: black;
+  color: white;
+  font-weight: normal;
   cursor: pointer;
 }
 
@@ -365,7 +372,8 @@ section ul li.active {
 
 @media only screen and (max-width: 768px) {
   .media {
-    width: 100%;
-    margin: 0px;
+    width: 90%;
+    margin: 20px;
+    margin-top: 50px;
   }
 }
