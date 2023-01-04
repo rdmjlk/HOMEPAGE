@@ -207,6 +207,32 @@ div.footer {
   transition: 0.3s linear;
 }
 
+/* Preloader to website that makes sure that our content is downloaded before it shows up. This function will also work as a warning card about the strobe effect i n different works*/
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: grey;
+  mix-blend-mode: difference;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disappear {
+  animation: vanish 1s forwards;
+}
+
+@keyframes vanish {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
 /* Caption text inside of the each media work and it's transistion*/
 .hovercap {
   background: white;
@@ -250,7 +276,7 @@ div.footer {
   position: relative;
   filter: none;
   height: auto;
-  width: 600px;
+  width: 550px;
   margin: 20px;
   margin-top: 60px;
 }
