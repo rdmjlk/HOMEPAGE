@@ -13,12 +13,12 @@
     <script src="sketch.js"></script>
 </head> 
 
-<div id="preloader">
-    <strong> WARNING! THIS WEBSITE CONTAINS STROBE EFFECTS. </strong>
-</div>
-
 <body>  
 
+    <div class="loader">
+        <img class="media" height="20px" src="Media/Works/Photos/RÖD MJÖLK_preloader.gif">
+    </div>
+    
 <div>
 <div id="shows">
     <p> UPCOMING</p>
@@ -60,12 +60,12 @@
     <script src="clock.js"></script>
 </body>
 
-<script>
-    var loader = document.getElementById("preloader");
-    window.addEventListener("load", function(){
-        loader.style.display = "none";
-    })
-</script>
+    <script>
+    var loader = document.querySelector(".loader");
+    window.addEventListener("load", vanish);
+    function vanish(){
+    loader.classList.add("disappear")
+}  </script>
 
 
 </html>
