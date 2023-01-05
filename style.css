@@ -5,7 +5,7 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica";
   mix-blend-mode: difference;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
@@ -22,18 +22,9 @@ hr {
   margin-bottom: 10px;
 }
 
-h1 {
-  color: rgba(230, 230, 230, 0.87);
-  font-family: "Pinyon Script", cursive;
-  font-size: 1000%;
-  text-align: left;
-  margin-left: 20px;
-  mix-blend-mode: difference;
-}
-
 h2 {
   color: rgba(243, 243, 243, 0.87);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica";
   font-size: 24pt;
   margin-top: 20px;
   margin-bottom: 5px;
@@ -44,7 +35,7 @@ h2 {
 
 div {
   color: rgb(240, 240, 240);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica";
   mix-blend-mode: difference;
 }
 
@@ -55,7 +46,7 @@ div.desc {
 
 p {
   color: rgb(240, 240, 240);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica";
   font-size: 12pt;
   text-align: justify;
   text-justify: inter-character;
@@ -73,7 +64,7 @@ p {
 
 info {
   color: rgb(240, 240, 240);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica";
   max-width: 500px;
   mix-blend-mode: difference;
 }
@@ -142,7 +133,7 @@ div.footer {
 #teksti {
   background: white;
   color: rgb(240, 240, 240);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica";
   mix-blend-mode: difference;
 }
 
@@ -286,6 +277,7 @@ div.footer {
   width: 550px;
   margin: 20px;
   margin-top: 60px;
+  margin-bottom:40px;
 }
 
 .hoverwrap .media .hide {
