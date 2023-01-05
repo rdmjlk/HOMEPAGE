@@ -276,7 +276,7 @@ div.footer {
   height: auto;
   width: 550px;
   margin: 20px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .hoverwrap .media .hide {
@@ -365,6 +365,6 @@ section ul li.active {
   .media {
     width: 90%;
     margin: 20px;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 }
